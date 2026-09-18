@@ -10,4 +10,11 @@
     <ProjectReference Include="..\CustomerSupport.Domain\CustomerSupport.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTOs\Categories\" />
+    <Folder Include="DTOs\MasterData\" />
+    <Folder Include="DTOs\Tickets\" />
+    <Folder Include="DTOs\Products\" />
+  </ItemGroup>
+
 </Project>

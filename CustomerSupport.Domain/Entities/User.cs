@@ -13,8 +13,8 @@ namespace CustomerSupport.Domain.Entities
         public Role Role { get; set; } = null!; //this is navigation property, contains name, description,
                                                 //isActive and Id property which is of type RoleType
 
-        //public ICollection<RefreshToken> RefreshTokens { get; set; }
-        //    = new List<RefreshToken>();
+        public ICollection<RefreshToken> RefreshTokens { get; set; }
+            = new List<RefreshToken>();
     }
 }
 
