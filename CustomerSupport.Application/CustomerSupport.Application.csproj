@@ -11,10 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\Categories\" />
-    <Folder Include="DTOs\MasterData\" />
-    <Folder Include="DTOs\Tickets\" />
-    <Folder Include="DTOs\Products\" />
+    <Folder Include="Interfaces\Services\" />
   </ItemGroup>
 
 </Project>

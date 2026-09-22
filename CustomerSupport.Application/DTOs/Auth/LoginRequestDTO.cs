@@ -1,14 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
 namespace CustomerSupport.Application.DTOs.Auth
 {
-    public sealed record LoginRequestDTO
+    //public sealed record LoginRequestDTO
+    public sealed class LoginRequestDTO
     {
         [Required]
         [EmailAddress]
         [StringLength(256)]
-        public string Email { get; init; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
 
         [Required]
-        public string Password { get; init; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
     }
 }
